@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>  
+<head>
+  <title> Retreive from Database</title>
+<link rel="stylesheet" href="tab.css">
+</head>
+<body>
+<table>
+  <caption>Store Data</caption>
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email-id</th>
+      <th scope="col">Phone Number</th>
+      <th scope="col">Delete</th>
+      <th scope="col">update</th>
+      
+    </tr>
+  </thead>
+  <tbody id="table_body">
+    
+  </tbody>
+  </table>
+
+
+
+ 
+
+
+</body>
+
+  <script src="https://www.gstatic.com/firebasejs/4.3.0/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+<script type="text/javascript">   
+
+// Initialize Firebase (ADD YOUR OWN DATA)
+  var firebaseConfig = {
+    apiKey: "AIzaSyAJA6dIaL27LSIVefonRMVAyLcYflKuyqU",
+    authDomain: "contact-form-ed40f.firebaseapp.com",
+    databaseURL: "https://contact-form-ed40f.firebaseio.com",
+    projectId: "contact-form-ed40f",
+    storageBucket: "contact-form-ed40f.appspot.com",
+    messagingSenderId: "934233120067",
+    appId: "1:934233120067:web:41047e43170ac66f6723f6",
+    measurementId: "G-5PDY2TL447"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+
+
+
+$( document ).ready(function() {
+    
+
+
+function phto(test) { 
+ console.log('test', test);
+} ;
+
+
+});
+
+
+
+
+
+
+</script>
+
+<script src="tab.js"></script>
+ 
+
+</html>
